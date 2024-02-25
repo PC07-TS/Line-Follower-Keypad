@@ -575,7 +575,7 @@ int readKeypad(){
   if(value == 86){ //Button value 3
     mode = 3; //The robot moves to the third place
   }
-  if(value == 6){ //Button value 4
+  if(value == 6){ //Button value A
     mode  = 4; //Back to base
   }
     return mode;
